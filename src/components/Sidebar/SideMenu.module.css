@@ -1,0 +1,27 @@
+.menu {
+  background-color: var(--c-accent1);
+  margin: 0 32px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+}
+
+.menu button {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 0;
+  cursor: pointer;
+  border-radius: 24px;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.menu button:hover {
+  background-color: var(--c-accent2);
+}

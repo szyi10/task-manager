@@ -1,0 +1,37 @@
+.boards {
+  flex: 2;
+  padding: 32px 0;
+}
+
+.boards h5 {
+  padding: 0 32px 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.64px;
+  color: var(--c-accent2);
+}
+
+.board {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+}
+
+.board--item {
+  padding: 16px 32px;
+  width: 90%;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  letter-spacing: 0.32px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: background-color 0.15s ease-in-out, color 0.15s;
+}
+
+.board--item:hover {
+  background-color: var(--c-primary);
+  color: #fff;
+  cursor: pointer;
+}

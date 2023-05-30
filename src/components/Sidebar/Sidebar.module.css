@@ -1,0 +1,13 @@
+.sidebar {
+  background: #fff;
+  width: 425px;
+  padding: 32px 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 0 32px;
+}

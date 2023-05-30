@@ -1,0 +1,5 @@
+.navbar {
+  background: #fff;
+  padding: 24px 0;
+  box-shadow: 0px 0px 50px -25px var(--c-accent2);
+}
