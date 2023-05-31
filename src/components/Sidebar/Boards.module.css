@@ -18,7 +18,8 @@
   gap: 16px;
 }
 
-.board--item {
+.board--item,
+.board--item-new {
   padding: 16px 32px;
   width: 90%;
   border-top-right-radius: 25px;
@@ -28,10 +29,20 @@
   align-items: center;
   gap: 12px;
   transition: background-color 0.15s ease-in-out, color 0.15s;
+  cursor: pointer;
 }
 
-.board--item:hover {
+.board--item.active {
   background-color: var(--c-primary);
   color: #fff;
-  cursor: pointer;
+}
+
+.board--item-new {
+  color: var(--c-primary);
+}
+
+.board--item:hover,
+.board--item-new:hover {
+  background-color: var(--c-primary);
+  color: #fff;
 }

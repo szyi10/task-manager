@@ -1,5 +1,29 @@
 .navbar {
   background: #fff;
-  padding: 24px 0;
-  box-shadow: 0px 0px 50px -25px var(--c-accent2);
+  padding: 32px;
+  box-shadow: 0px 2px 5px -2.5px var(--c-accent2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar button {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  background-color: var(--c-primary);
+  color: #fff;
+  border-radius: 24px;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.navbar button:hover {
+  background-color: var(--c-doing);
 }

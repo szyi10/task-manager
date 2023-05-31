@@ -5,7 +5,11 @@ import classes from "./Navbar.module.css"
 const Navbar = () => {
   return (
     <nav className={classes.navbar}>
-      <p>Navbar</p>
+      <h2>Platform Launch</h2>
+      <button>
+        <i className="bx bx-plus"></i>
+        <p>Add New Task</p>
+      </button>
     </nav>
   )
 }

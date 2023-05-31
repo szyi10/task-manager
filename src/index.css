@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
   --c-primary: #655fc7;
@@ -34,6 +34,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--c-background);
   color: var(--c-accent3);
+  overflow: hidden;
 }
 
 #root {
